@@ -6,9 +6,9 @@
 </template>
 
 <script>
-    import NavMenu from "@/components/common/NavMenu";
+    import NavMenu from './common/NavMenu'
     export default {
-        name: "Home",
+        name: 'Home',
         components: {NavMenu}
     }
 </script>
