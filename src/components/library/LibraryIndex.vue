@@ -5,21 +5,26 @@
             <SideMenu></SideMenu>
         </el-aside>
         <el-main>
-            <!--<books></books>-->
+            <books class="books-area"></books>
         </el-main>
     </el-container>
 </template>
 
 <script>
     import SideMenu from './SideMenu'
+    import Books from "@/components/library/Books";
     export default {
         name: 'AppLibrary',
-        components: {SideMenu}
+        components: {SideMenu, Books},
     }
 </script>
 
 <style scoped>
-
+    .books-area {
+        width: 990px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
 
 

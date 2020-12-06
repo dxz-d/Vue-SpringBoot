@@ -50,4 +50,11 @@
         top: 142px;
         width: 150px;
     }
+    /*.categories {
+        position: fixed;
+        margin-left: 50%;
+        left: -600px;
+        top: 100px;
+        width: 150px;
+    }*/
 </style>
